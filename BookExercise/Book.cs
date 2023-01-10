@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,7 +48,8 @@ namespace BookExercise
             this.SetId(id);
             this.price = price;
 
-            this.MyMethod2(this.title, this.author, this.id, this.price);
+            //this.MyMethod2(this.title, this.author, this.id, this.price);
+            this.PrintData();
         }
 
    
@@ -71,6 +73,12 @@ namespace BookExercise
             
         }
 
+        public void PrintData()
+        {
+            Console.WriteLine("title {0}, " +
+            "author {1}", "id{3}" +"price{4}",
+                this.title, this.author, this.id, this.price );
+        }
         public void MyMethod(int parameter1, string parameter2)
         {
             Console.WriteLine("page count is {0}, " +

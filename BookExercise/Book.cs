@@ -16,7 +16,9 @@ namespace BookExercise
         string id;
         double price;
         int pageCount;
-  
+
+      
+      
         public Book()
         {
             this.title = "";
@@ -73,6 +75,8 @@ namespace BookExercise
             
         }
 
+      
+
         public void PrintData()
         {
             Console.WriteLine("title {0}, " +
@@ -86,7 +90,28 @@ namespace BookExercise
             parameter1, parameter2);
         }
 
-     
+        public void CompareBooks(Book other)
+        {
+            Console.WriteLine(this.price);
+            Console.WriteLine(other.price);
+            if (this.price > other.price)
+            {
+                Console.WriteLine(this.price);
+
+            }
+            else
+            {
+                Console.WriteLine(other.price);
+            }
+
+
+          
+
+
+        }
+
+
+
 
 
     }

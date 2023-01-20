@@ -7,7 +7,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("MOikka, tervetuloa konsoliin, alla näkyy palkkavertailu looppi");
+        Console.WriteLine("Moikka, tervetuloa konsoliin, alla näkyy palkkavertailu looppi");
         Console.WriteLine(" ");
 
         //Employee Eetu = new Employee ("Eetu", "001", "Johtaja", 100000);

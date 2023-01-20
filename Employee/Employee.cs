@@ -41,13 +41,13 @@ namespace EmployeeExercise
 
         public void PrintEmployeeInfo()
         {
-            Console.WriteLine("PrintInfo Nimi: " + this.name +" ID: "+ this.id + " palkka: " + this.salary + " positio: " + this.position);
+            Console.WriteLine("PrintInfo Nimi: " + this.name + "\n " +" ID: " + this.id + "\n " + " palkka: " + this.salary + "\n " + " positio: " + this.position);
 
         }
 
         public override string? ToString()
         {
-            return "ToString Nimi:" + this.name + " id: " + this.id + " palkka: " + this.salary + " positio: " + this.position;
+            return "\n "+ "ToString Nimi:" + this.name + "\n " + " id: " + this.id + "\n " + " palkka: " + this.salary + "\n " + " positio: " + this.position + "\n ";
         }
     }
 }

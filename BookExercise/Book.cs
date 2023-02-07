@@ -17,8 +17,8 @@ namespace BookExercise
         double price;
         int pageCount;
 
-      
-      
+
+
         public Book()
         {
             this.title = "";
@@ -34,7 +34,7 @@ namespace BookExercise
         public Book(string title, int pageCount)
         {
             this.title = title;
-            this.pageCount = 0;
+            this.pageCount = pageCount;
 
             this.author = "";
             this.id = "00000";
@@ -54,65 +54,59 @@ namespace BookExercise
             this.PrintData();
         }
 
-   
+
 
         public void MyMethod2(string author, string kirjailia, string idee, double parameterPrice)
         {
-            Console.WriteLine( "this is " + author + " author is " + kirjailia + " id is " + idee + " price is " + parameterPrice + " dollars");
+            Console.WriteLine("this is " + author + " author is " + kirjailia + " id is " + idee + " price is " + parameterPrice + " dollars");
         }
 
         public void SetId(string id)
         {
-            if(id.Length != 5)
+            if (id.Length != 5)
             {
                 Console.WriteLine("invalid id");
                 this.id = "Error";
             }
             else
             {
-                this.id=id;
+                this.id = id;
             }
-            
-        }
 
-      
+        }
 
         public void PrintData()
         {
-            Console.WriteLine("title {0}, " +
-            "author {1}", "id{3}" +"price{4}",
-                this.title, this.author, this.id, this.price );
+            Console.WriteLine("title {0}\n" + "author {1}\n" + "id {2}\n" + "price {3}\n", this.title, this.author, this.id, this.price);
         }
         public void MyMethod(int parameter1, string parameter2)
         {
-            Console.WriteLine("page count is {0}, " +
+            Console.WriteLine("Sivu määrä on {0}, " +
             "title is {1}",
             parameter1, parameter2);
         }
 
         public void CompareBooks(Book other)
         {
-            Console.WriteLine(this.price);
-            Console.WriteLine(other.price);
+            Console.WriteLine();
+            Console.WriteLine("Kirjojen hinta vertailu:");
+            Console.WriteLine("book name: " + this.title + " hinta: " + this.price);
+            Console.WriteLine("book name: " + other.title + " hinta: " + other.price);
             if (this.price > other.price)
             {
-                Console.WriteLine(this.price);
+                Console.WriteLine("Tämä kirja: " + this.title + " on siis kallinpi ja sen hinta on: " + this.price);
 
             }
             else
             {
-                Console.WriteLine(other.price);
+                Console.WriteLine("book price: " + other.price);
             }
 
 
-          
+
 
 
         }
-
-
-
-
 
     }
 }

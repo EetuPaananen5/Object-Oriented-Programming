@@ -24,7 +24,7 @@ internal class Program
 
         books.Sort();
 
-        // tULOST
+        // Tulostaa sorttauksen jälkeen oikeassa järjestyksessä
 
         foreach (Book book in books)
         {

@@ -105,7 +105,9 @@ internal class Book : IComparable<Book>
     {
 
         return this.price.CompareTo(other.price);
-       /* if (this.price < other.price)
+
+
+       /* if (this.price < other.price)   Funktio mikä toimii samal taval ku ylempi
             return -1;
         else if (this.price > other.price)
             return 1;

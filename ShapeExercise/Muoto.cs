@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShapeExercise
 {
-    abstract class Muoto
+    abstract class Muoto : IComparable<Muoto>
     {
         internal protected string Type;
         internal protected string Color;
@@ -25,6 +25,15 @@ namespace ShapeExercise
         {
             return Color;
         }
-        
+
+        public int CompareTo(Muoto? other)
+        {
+           return  other.GetArea().CompareTo(this?.GetArea());
+        }
+
+       /* public int CompareTo(Muoto? other)
+        {
+            return other.Color.CompareTo(this?.Color);
+        }*/
     }
 }

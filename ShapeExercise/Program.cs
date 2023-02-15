@@ -55,7 +55,7 @@ foreach (Muoto shape in shapes)
 Console.WriteLine("\n\n --------sort----------\n\n");
 
 
-Console.WriteLine("sorttaus pinta alan mukaan isoin eka: ");
+Console.WriteLine("sorttaus pinta-alan mukaan ja isoin eka: ");
 shapes.Sort();
 
 // Tulostaa sorttauksen jälkeen oikeassa järjestyksessä

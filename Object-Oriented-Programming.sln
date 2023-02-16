@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeExercise", "ShapeExerc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arviointioikea", "arviointioikea\arviointioikea.csproj", "{30D93FCE-948D-4036-8D20-2B5445ADC883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalExercise", "AnimalExercise\AnimalExercise.csproj", "{AC330F89-5B38-499A-88A2-11BFAA954A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalExercise", "AnimalExercise\AnimalExercise.csproj", "{AC330F89-5B38-499A-88A2-11BFAA954A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesExercise", "FilesExercise\FilesExercise.csproj", "{8610D356-1E02-40CD-86D9-FDBA92291BF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{AC330F89-5B38-499A-88A2-11BFAA954A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC330F89-5B38-499A-88A2-11BFAA954A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC330F89-5B38-499A-88A2-11BFAA954A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

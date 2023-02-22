@@ -25,7 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arviointioikea", "arviointi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalExercise", "AnimalExercise\AnimalExercise.csproj", "{AC330F89-5B38-499A-88A2-11BFAA954A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesExercise", "FilesExercise\FilesExercise.csproj", "{8610D356-1E02-40CD-86D9-FDBA92291BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesExercise", "FilesExercise\FilesExercise.csproj", "{8610D356-1E02-40CD-86D9-FDBA92291BF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurancearviointi", "VehicleArviointi1\Insurancearviointi.csproj", "{38A5E5E1-712D-46AA-BD44-C56BB8D8D03D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceArviointi2", "InsuranceArviointi2\InsuranceArviointi2.csproj", "{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tentti", "Tentti\Tentti.csproj", "{D4240001-8BA2-45EA-9A25-A505D6A3DB08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8610D356-1E02-40CD-86D9-FDBA92291BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A5E5E1-712D-46AA-BD44-C56BB8D8D03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A5E5E1-712D-46AA-BD44-C56BB8D8D03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A5E5E1-712D-46AA-BD44-C56BB8D8D03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A5E5E1-712D-46AA-BD44-C56BB8D8D03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

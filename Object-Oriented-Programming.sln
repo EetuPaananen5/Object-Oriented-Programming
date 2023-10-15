@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurancearviointi", "Vehic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceArviointi2", "InsuranceArviointi2\InsuranceArviointi2.csproj", "{AFEA734B-B2F6-4BB2-B848-C73EBCF1F6D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tentti", "Tentti\Tentti.csproj", "{D4240001-8BA2-45EA-9A25-A505D6A3DB08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tentti", "Tentti\Tentti.csproj", "{D4240001-8BA2-45EA-9A25-A505D6A3DB08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{E2FBBFEC-78AD-4E4C-8092-13C00947636D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BEC9F71E-2E7B-4310-AC0F-E02696010D5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,10 @@ Global
 		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4240001-8BA2-45EA-9A25-A505D6A3DB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FBBFEC-78AD-4E4C-8092-13C00947636D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FBBFEC-78AD-4E4C-8092-13C00947636D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FBBFEC-78AD-4E4C-8092-13C00947636D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FBBFEC-78AD-4E4C-8092-13C00947636D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
